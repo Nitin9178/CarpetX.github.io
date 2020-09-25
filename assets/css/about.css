@@ -1,0 +1,238 @@
+*{
+  margin : 0;
+  padding : 0;
+  box-sizing : border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+a
+{
+  text-decoration : none;
+}
+
+a:focus , a:hover
+{
+  text-decoration : none;
+}
+.about
+{
+  max-width: 100%;
+  height : auto;
+}
+.about h2
+{
+  line-height : 2;
+}
+.about #first_image
+{
+  max-width : 100%;
+  max-height : auto;
+}
+.about h3
+{
+  word-spacing : 0.5rem;
+  font-family : 'Times New Roman', Times, serif;
+  line-height : 1;
+  font-size : 3rem;
+}
+
+.product-info
+{
+  max-height : 100%;
+  height : auto; 
+}
+.product-info .card
+{
+  margin-top : 15px;
+}
+
+.product-info .card img
+{
+  max-width : 100%;
+  height : 250px; 
+}
+
+.product-info .card .card-footer p
+{
+  font-size : 20px;
+  font-family : 'Times New Roman', Times, serif;
+  word-spacing: 1px;
+  transition : 0.9s all linear;
+}
+
+.product-info .card .card-footer p:hover
+{
+  color : #111;
+  font-weight : bold;
+}
+
+.team
+{
+  max-width : 100%;
+  height : 100vh;
+  background : -webkit-linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)) , url("../images/tiles2.jpg");
+  background : -moz-linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)) , url("../images/tiles2.jpg");
+  background : -o-linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)) , url("../images/tiles2.jpg");
+  background-repeat: no-repeat;
+  background-size : 100% 100%;
+  display : grid;
+  place-items: center;
+}
+
+.team h2
+{
+  color : #fff;
+  font-family: 'Times New Roman', Times, serif;
+  position : relative;
+}
+
+
+.team .about-team
+{
+  max-width : 100%;
+  height : 550px;
+  display : grid;
+  place-items: center;
+  background : none;
+  color : #fff;
+  margin-bottom : 150px;
+}
+.team .about-team .card 
+{
+  transition : 4s all linear;
+}
+.team .about-team .card .fa-truck
+{
+  color : rgba(206, 72, 32);
+}
+
+.team .about-team .card .fa-magic
+{
+  color : rgb(13, 49, 149);
+}
+
+.team .about-team .card .fa-money
+{
+  color : rgb(94, 102, 68);
+}
+
+.team .about-team .card .fa-phone
+{
+  color : rgb(16, 168, 206);
+}
+.team .about-team .card:hover
+{
+  border : 1px solid #fff;
+  position : relative;
+}
+
+.services
+{
+  max-width : 100%;
+  min-height : 100vh;
+  background : #fff;
+  overflow : hidden;
+  display : grid;
+  place-items: center;
+}
+
+.services .about-service
+{
+  max-width : 100%;
+  min-height : 550px;
+  display : grid;
+  place-items: center;
+}
+
+.services .about-service .card img
+{
+   width : 200px;
+   height : 200px;
+   border : 1px solid orangered;
+}
+
+.services .about-service .card .fa
+{
+   margin : 10px;
+   padding : 10px;
+   border-radius: 100px;
+   transition : 0.4s all ease-in-out;
+}
+
+.services .about-service .card .fa:hover
+{
+   font-size : 3em;
+}
+.services .about-service .card .fa-facebook
+{
+  color : blue;
+  background : #fff;
+}
+
+.services .about-service .card .fa-facebook:hover
+{
+  color : #fff;
+  background : blue;
+}
+
+.services .about-service .card .fa-instagram
+{
+  color : rgb(235, 95, 118);
+  background : #fff;
+}
+
+.services .about-service .card .fa-instagram:hover
+{
+  color : #fff;
+  background : rgb(235, 95, 118);
+}
+
+.services .about-service .card .fa-twitter
+{
+  color : rgb(14, 78, 199);
+  background : #fff;
+}
+
+.services .about-service .card .fa-twitter:hover
+{
+  color : #fff;
+  background : rgb(14, 78, 199);
+}
+
+/* ================================================================= CONTACT FORM CSS CODING ============================================================= */
+.contact
+{
+  width : 100%;
+  height : 100vh;
+  background : lightblue;
+  display : grid;
+  place-items : center;
+}
+
+.contact .contact-form
+{
+  max-width : 100%;
+  min-height : 550px;
+  background : #fff;
+  overflow : hidden;
+  position : relative;
+  background : -webkit-linear-gradient(115deg, rgba(14, 131, 209, 0.5) 35%, rgba(231,134,121,0.3));
+}
+
+.contact .contact-form #first_col
+{
+  background-size : 100% 100%;
+  background-repeat : no-repeat;
+  height : 550px;
+  color : #fff;
+  position : absolute;
+  left : 50%;
+  top : 50%;
+  transform : translate(-50%,-50%);
+}
+
+.contact .contact-form #first_col form .form-control
+{
+   margin : 50px auto;
+}
+
+

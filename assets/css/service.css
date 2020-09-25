@@ -1,0 +1,37 @@
+.user_pro
+{
+  width : 100%;
+  height : auto;
+  display : grid;
+  place-items : center;
+}
+.user_pro .user_choice
+{
+  width : 100%;
+  min-height : auto;
+  background : rgb(202, 198, 198);
+  display : grid;
+  place-items : center;
+}
+.user_pro .user_choice h3
+{
+  font-family : cursive;
+}
+.user_pro .user_choice .btn
+{
+  width : 500px;
+  outline : none;
+  border-radius: 100px;
+  padding : 35px auto;
+}
+
+.user_pro .user_choice .btn:focus
+{
+  outline : none;
+}
+
+.user_pro .user_choice input:focus
+{
+  outline : none;
+  display : block;
+}

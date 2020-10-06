@@ -1,0 +1,3 @@
+# CarpetX.github.io
+Hello guys, This project is based on PHP and Mysql But the disadvantage of this project is that you have to send email via localhost or if you want, you can modify it and can use phpmailer
+to send the mails. It is major requirement in this project because when you will register yourself or login, you have to verify yourself. So mark it before using this....
